@@ -5,7 +5,7 @@ function createEndpointsSource(version, branch) {
       // endpoint method sourceInstanceNames follow this specific
       // naming convention so they may be queried later
       name: version + `-endpoints`,
-      remote: `https://github.com/octokit/plugin-rest-endpoint-methods.js.git`,
+      remote: `https://github.com/copperwall/plugin-rest-endpoint-methods.js.git`,
       branch,
       patterns: `docs/**`
     }
